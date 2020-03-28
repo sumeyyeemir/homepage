@@ -10,10 +10,6 @@ export default function Index() {
   if (isNoon) welcome = 'Good afternoon'
   else if (isEvening) welcome = 'Good evening'
 
-  //I build pixel-perfect <span className="nowrap">pages 👩🏻‍💻👌</span>{' '}
-  //smooth <span className="nowrap">animations 🦄</span> and performant
-  //web <span className="nowrap">applications 💯</span>{' '}
-
   return (
     <>
       <div className="hero">
