@@ -29,7 +29,7 @@ export default function Index() {
             ethic to literally <span className="nowrap"> change the world 🤲🏼 </span>.
             <br />
             That's why I’m excited to make
-            a big impact at a  <span className="nowrap">high growth company 👾 </span>.
+            a impact at a  <span className="nowrap">high growth company 👾 </span>.
             </p>
           </b>
           <br />
