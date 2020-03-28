@@ -5,7 +5,7 @@ export default function Seo() {
   const site = {
     title: 'Sümeyye Özkaynak - Code and Code',
     description: 'Full Stack Data Scientist from Antalya',
-    url: 'https://sumeyyeozkaynak.github.io',
+    url: 'https://sumeyyeozkaynak.github.io/homepage',
     twitter: '@sumeyyeozkaynak'
   }
 

@@ -1,14 +1,14 @@
 {
-  "name": "sumeyyeozkaynak-website",
+  "name": "gh-pages",
   "version": "0.0.20",
   "license": "ISC",
-  "homepage": "https://sumeyyeozkaynak.github.io/",
   "scripts": {
     "dev": "next",
     "build": "cross-env NEXT_EXPORT=true next build",
     "export": "yarn build && cross-env NEXT_EXPORT=true next export",
     "now-build": "yarn export",
     "start": "serve out",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "^9.3.2",
