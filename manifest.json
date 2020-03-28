@@ -1,0 +1,16 @@
+{
+  "name": "Sümeyye Özkaynak's website",
+  "short_name": "Ai",
+  "description": "Full Stack Data Scientist from Antalya",
+  "icons": [
+    {
+      "src": "/static/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000",
+  "background_color": "#000",
+  "start_url": "/",
+  "display": "standalone"
+}
